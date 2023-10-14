@@ -1,10 +1,8 @@
 <?php
+require 'vendor/autoload.php';
+
 // Replace with your MongoDB Atlas connection string
 $connectionString = "mongodb+srv://kenUser:KenPassword@atlascluster.qrj9egp.mongodb.net/examples";
-
-// Include the MongoDB PHP driver files
-require 'mongodb/mongodb/src/Client.php';
-require 'mongodb/mongodb/src/Collection.php';
 
 // Create a MongoDB client
 $client = new MongoDB\Client($connectionString);
