@@ -1,6 +1,6 @@
 <?php
 // Include MongoDB PHP library
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 
 // Set up MongoDB connection
