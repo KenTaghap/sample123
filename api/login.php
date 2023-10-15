@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 // Connect to MongoDB Atlas
 $mongoClient = new MongoDB\Client("mongodb+srv://marjoriedeleon666:Reservation@cluster0.hq3leyp.mongodb.net/Reservation");
